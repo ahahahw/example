@@ -12,7 +12,7 @@ class SSHController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
      //update brothe
-     public function SshGitLaravelClone(){
+     public function SshGitLaraveOrigin(){
         return '';
      }
    
