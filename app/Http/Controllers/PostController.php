@@ -11,7 +11,11 @@ use Illuminate\Routing\Controller as BaseController;
 class PostController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-     //
+     
+    function metthod(){
+
+        return ('я тут главный');
+    } 
 
    
 }
