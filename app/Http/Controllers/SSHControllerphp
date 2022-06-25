@@ -11,7 +11,7 @@ use Illuminate\Routing\Controller as BaseController;
 class SSHController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-     //
+     //update brothe
 
    
 }
